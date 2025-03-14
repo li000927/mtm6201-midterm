@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- Skip Links -->
+    <a href="#login-section" class="skip-link">Skip to Login Section</a>
+    <a href="#testimonials-section" class="skip-link">Skip to Testimonials Section</a>
+
+
+    <!-- banner section -->
+    <header role="banner">
+        <button class="sale-button" aria-label="Limited time promotion notification">
+            Free Courses 🌟 Sale Ends Soon, Get It Now → </button>
+        <div class="logo">
+            <img src="images/Logo.png" alt="logo" itemprop="logo">
+        </div>
+
+        <nav id="primary-nav" role="navigation" aria-label="Main navigation">
+            <ul role="menubar">
+                <li role="menuitem"><a href="index.html">Home</a></li>
+                <li role="menuitem"><a href="#courses">Courses</a></li>
+                <li role="menuitem"><a href="#">About Us</a></li>
+                <li role="menuitem"><a href="#peiceing">Pricing</a></li>
+                <li role="menuitem"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="nav-buttons">
+            <a href="signup.html" class="signup-button" aria-label="Sign up">Sign Up</a>
+            <a href="login.html" class="login-button" aria-label="Login">Login</a>
+        </div>
+    </header>
+    <!-- main content section -->
+    <main class="login-container">
+        <!-- login card -->
+        <div class="login-card-container" id="login-section">
+            <div class="login-card">
+                <!-- login card header -->
+                <div class="login-header">
+                    <h1>Login</h1>
+                    <p>Welcome back! Please log in to  access your account.</p>
+                </div>
+
+                <form>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your Email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter your Password">
+                        <a href="#">Forgot Password?</a>
+                    </div>
+
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Remember Me</label>
+                    </div>
+
+                    <button type="submit" class="login-button">Login</button>
+
+                    <div class="divider">OR</div>
+
+                    <button type="button" class="google-login">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_152_4476)">
+                                <path
+                                    d="M23.7643 12.2764C23.7643 11.4607 23.6982 10.6406 23.5571 9.83807H12.2383V14.4591H18.72C18.451 15.9494 17.5868 17.2678 16.3213 18.1056V21.1039H20.1883C22.4591 19.0139 23.7643 15.9274 23.7643 12.2764Z"
+                                    fill="#4285F4" />
+                                <path
+                                    d="M12.2391 24.0008C15.4756 24.0008 18.205 22.9382 20.1936 21.1039L16.3266 18.1055C15.2507 18.8375 13.8618 19.252 12.2435 19.252C9.11291 19.252 6.45849 17.1399 5.50607 14.3003H1.51562V17.3912C3.55274 21.4434 7.70192 24.0008 12.2391 24.0008Z"
+                                    fill="#34A853" />
+                                <path
+                                    d="M5.50082 14.3003C4.99816 12.8099 4.99816 11.1961 5.50082 9.70575V6.61481H1.51478C-0.187219 10.0056 -0.187219 14.0004 1.51478 17.3912L5.50082 14.3003Z"
+                                    fill="#FBBC04" />
+                                <path
+                                    d="M12.2391 4.74966C13.9499 4.7232 15.6034 5.36697 16.8425 6.54867L20.2685 3.12262C18.0991 1.0855 15.2198 -0.034466 12.2391 0.000808666C7.70192 0.000808666 3.55274 2.55822 1.51562 6.61481L5.50166 9.70575C6.44967 6.86173 9.1085 4.74966 12.2391 4.74966Z"
+                                    fill="#EA4335" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_152_4476">
+                                    <rect width="24" height="24" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        Login with Google
+                    </button>
+
+                    <p class="signup-text">
+                        Don't have an account? <a href="#">Sign Up</a>
+                    </p>
+                </form>
+            </div>
+            <!-- testimonials section -->
+            <div class="testimonials" class="login-card" id="testimonials-section">
+                <div class="testimonials-header">
+                    <h2>Students Testimonials</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu
+                        sit
+                        dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.</p>
+                </div>
+
+                <div class="testimonial">
+                    <p>The web design course provided a solid foundation for me. The instructors were knowledgeable and
+                        supportive, and the interactive learning environment was engaging. I highly recommend it!</p>
+
+                    <div class="testimonial-author">
+                        <img src="images/sarah-l.png" alt="Sarah L">
+                        <span>Sarah L</span>
+                        <a href="#">Read Full Story</a>
+                    </div>
+                </div>
+                <!-- page flep button -->
+                <div class="flep-button">
+                    <button class="prev-button">←</button>
+                    <button class="next-button">→</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer section -->
+    <footer class="footer" id="footer" role="contentinfo" itemscope itemtype="https://schema.org/WPFooter">
+        <div class="footer-container">
+            <!-- left - contact -->
+            <div class="footer-contact" itemscope itemtype="https://schema.org/Organization">
+                <img src="images/Logo.png" alt="Company Logo" class="footer-logo">
+                <p><i class="fa-solid fa-envelope"></i> hello@skillbridge.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 91813 23 2309</p>
+                <p><i class="fa-solid fa-location-dot"></i> Somewhere in the World</p>
+            </div>
+
+            <!-- mid - nav links -->
+            <div class="footer-links" aria-label="Footer Navigation" role="navigation">
+                <div class="footer-column">
+                    <h4>Home</h4>
+                    <ul>
+                        <li><a href="#">Benefits</a></li>
+                        <li><a href="#">Our Courses</a></li>
+                        <li><a href="#">Our Testimonials</a></li>
+                        <li><a href="#">Our FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Achievements</a></li>
+                        <li><a href="#">Our Goals</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- right - social media -->
+            <div class="footer-social">
+                <h4>Social Profiles</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="Visit our Twitter profile"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" aria-label="Visit our LinkedIn profile"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- bottom copyright -->
+        <div class="footer-bottom">
+            <p>© 2023 Skillbridge. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
